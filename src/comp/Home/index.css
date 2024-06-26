@@ -1,0 +1,36 @@
+.index-head {
+    font-size: small;
+}
+
+.index-front {
+    margin-top: 150px;
+    padding-left: 170px;
+}
+
+.index-front > button {
+    color: azure;
+    padding: 3px;
+    background-color: orange;
+    height: 30px;
+    width: 80px;
+    border-color: orange;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.index-front > button:hover {
+    color: #ddd;
+    padding: 5px 10px; 
+    font-size: 14px;
+    height: 28px;
+    width: 78px;
+}
+
+.index-body {
+    background-image: url("C:/Users/gokul/OneDrive/Desktop/portfilio/my-react-app/public/portfilio.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+}

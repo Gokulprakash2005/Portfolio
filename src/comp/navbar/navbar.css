@@ -1,7 +1,30 @@
-
-
 * {
     margin: 0;
     padding: 0;
+  }
+  
+  .menu {
+    display: flex; 
 }
-
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding:7px;
+  }
+  
+  .nav-item {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .nav-head{
+    padding: 5px;
+    color: white;
+  } 
+  .nav-item:hover {
+    color: gray;
+  }
+ 

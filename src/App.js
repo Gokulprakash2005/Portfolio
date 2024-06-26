@@ -1,8 +1,12 @@
 import './App.css';
-import Headerpoint from './comp/navbar/navbar';
+import Home from './comp/Home';
+import Navbar from './comp/navbar/navbar';
 function App() {
   return (
-    <Headerpoint/>
+    <>
+    <Navbar/>
+    <Home/>
+    </>
   );
 }
 
