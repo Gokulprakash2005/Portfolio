@@ -12,6 +12,7 @@ function Navbar() {
         <a href="#about" className="nav-item">About Us</a>
         <a href="#services" className="nav-item">Resume</a>
         <a href="#contact" className="nav-item">Contact</a>
+        <button className="nav-front-new"><a href="#contact" >Hire Me</a></button>
       </div>
     </nav>
   );

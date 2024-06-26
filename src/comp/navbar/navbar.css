@@ -27,4 +27,20 @@
   .nav-item:hover {
     color: gray;
   }
+  .nav-front-new{
+    color: azure;
+    padding: 4px;
+    background-color: orange;
+    height: 30px;
+    width:80px;
+    border-color: orange;
+    border-width: 2px;
+    border-style: solid;
+    margin-top: 6px;
+    
+ }
+ .nav-front-new>a{
+    text-decoration: none;
+ }
  
+
