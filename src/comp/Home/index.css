@@ -1,34 +1,69 @@
-.index-front>button{
-     color: azure;
-     padding: 3px;
-     background-color: orange;
-     height: 30px;
-     width:80px;
-     margin-top: 15px;
-     border-color: orange;
-     border-width: 2px;
-     border-style: solid;
- }
- .index-front>button:hover
- {
-     color: #ddd;
-     padding: 5px 10px; 
-     font-size: 14px;
-     height: 28px;
-     width :78px;
- }
 
- .index-body{
-     color: white;
-     background-color: #1D232c;
-     height: 90vh;
-     width: 100wh;
-     display: flex;
-     padding-left: 150px;
-     align-items: center;
- } 
-.index-front{
-    font-size: 1.5rem;
+.index-body {
+    color: white;
+    background-color: #1D232c;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
- 
+.index-front {
+    font-size: 1.5rem;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #2a2f3a;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.index-front > button {
+    color: azure;
+    padding: 10px 20px;
+    background-color: orange;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.index-front > button:hover {
+    color: #ddd;
+    background-color: darkorange;
+}
+
+@media (max-width: 768px) {
+    .index-body {
+        display: block;
+    }
+
+    .index-front {
+        padding: 10px;
+        font-size: 1.2rem;
+    }
+
+    .index-front > button {
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .index-body {
+        display: block;
+    }
+
+    .index-front {
+        padding: 10px;
+        font-size: 1rem;
+    }
+
+    .index-front > button {
+        padding: 6px 12px;
+    }
+}
+
