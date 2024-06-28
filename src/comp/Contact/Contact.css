@@ -1,54 +1,87 @@
-.headers{
-    height: 100vh;
+.headers {
+    min-height: 100vh;
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
-   
-}
-
-.Contact-head {
-
-display: flex;
-flex-direction: column;
-align-items: center;
-background-color:whitesmoke;
-border-radius: 12px;
-border-color: whitesmoke;
-border-style:solid;
-padding: 30px;
-
-}
-.Contact-head >input{
-padding: 10px;
-border-radius: 12px;
-border-color: black;
-border-style:solid;
-margin: 5px;
-height: 7vh;
-width: 300px;
-background-color:whitesmoke;
-}
-#buttons{
-color: azure;
-padding: 10px 20px;
-background-color: green;
-margin-top: 15px;
-border: none;
-border-radius: 5px;
-cursor: pointer;
-transition: all 0.3s ease;
-}
-#textarea{
-border-radius: 8px;
-border-color: black;
-border-style:solid;
-background-color:whitesmoke;
-margin-top: 15px;
-}
-body{
-    background-image: url('https://files.123freevectors.com/wp-content/original/119241-blue-and-white-abstract-background-vector.jpg');
+    background-image: url('https://www.wallpaperflare.com/static/240/1011/656/abstract-digital-art-blue-white-wallpaper.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.contact-main {
+    max-width: 500px; /* Adjust max-width to control form width */
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.Contact-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 12px;
+    border: 1px solid whitesmoke;
+    padding: 30px;
+}
+
+.Contact-head > input, 
+.Contact-head > textarea {
+    width: 100%;
+    max-width: 300px; /* Adjust max-width to control input width */
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px solid black;
+    margin: 5px;
+    background-color: whitesmoke;
+}
+
+#buttons {
+    color: azure;
+    padding: 10px 20px;
+    background-color: green;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#textarea {
+    border-radius: 8px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+    .Contact-head {
+        padding: 20px;
+    }
+
+    .Contact-head > input, 
+    .Contact-head > textarea {
+        max-width: 100%; /* Adjust input width to 100% for smaller screens */
+    }
+
+    #buttons {
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-main {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    .Contact-head {
+        padding: 10px;
+        margin-right: 20px;
+    }
+
+    #buttons {
+        padding: 6px 12px;
+    }
 }

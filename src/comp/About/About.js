@@ -5,7 +5,7 @@ function About() {
     return (
         <body className="about-body">
          <div className="About-head">
-         <h3 style={{color:"sandybrown",marginBottom:"30px"}}>About</h3>
+         <h2 style={{color:"sandybrown",marginBottom:"30px"}}>About Us</h2>
          <h1>Hello You</h1>
          <h5 style={{marginTop:"10px"}}>My Name is Gokul Prakash "As an emerging web developer, I'm learning full-stack technologies
          to gain expertise."I'm currently in my final year pursuing B.Tech IT at Mahalingam College of Engineering, Pollachi, with a keen interest in advancing my skills in web development. My journey began with mastering the fundamentals of HTML, CSS, and JavaScript, which laid the groundwork for exploring front-end frameworks like React.js. Additionally, my proficiency extends to backend development using core Java and managing databases with SQL.
