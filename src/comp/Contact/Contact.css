@@ -11,7 +11,7 @@
 }
 
 .contact-main {
-    max-width: 500px; /* Adjust max-width to control form width */
+    max-width: 600px;
     width: 100%;
     padding: 20px;
     box-sizing: border-box;
@@ -25,12 +25,14 @@
     border-radius: 12px;
     border: 1px solid whitesmoke;
     padding: 30px;
+    box-sizing: border-box;
+    width: 100%;
 }
 
 .Contact-head > input, 
 .Contact-head > textarea {
     width: 100%;
-    max-width: 300px; /* Adjust max-width to control input width */
+    max-width: 300px;
     padding: 10px;
     border-radius: 12px;
     border: 1px solid black;
@@ -63,7 +65,7 @@
 
     .Contact-head > input, 
     .Contact-head > textarea {
-        max-width: 100%; /* Adjust input width to 100% for smaller screens */
+        max-width: 100%;
     }
 
     #buttons {
@@ -73,12 +75,16 @@
 
 @media (max-width: 480px) {
     .contact-main {
-        padding: 10px; /* Adjust padding for smaller screens */
+        padding: 10px;
     }
 
     .Contact-head {
         padding: 10px;
-        margin-right: 20px;
+    }
+
+    .Contact-head > input, 
+    .Contact-head > textarea {
+        max-width: 100%;
     }
 
     #buttons {
