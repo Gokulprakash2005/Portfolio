@@ -37,6 +37,7 @@
     background-color: darkorange;
 }
 
+
 @media (max-width: 768px) {
     .index-body {
         display: block;

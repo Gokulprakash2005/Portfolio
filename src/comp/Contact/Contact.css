@@ -1,0 +1,54 @@
+.headers{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.Contact-head {
+
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color:whitesmoke;
+border-radius: 12px;
+border-color: whitesmoke;
+border-style:solid;
+padding: 30px;
+
+}
+.Contact-head >input{
+padding: 10px;
+border-radius: 12px;
+border-color: black;
+border-style:solid;
+margin: 5px;
+height: 7vh;
+width: 300px;
+background-color:whitesmoke;
+}
+#buttons{
+color: azure;
+padding: 10px 20px;
+background-color: green;
+margin-top: 15px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: all 0.3s ease;
+}
+#textarea{
+border-radius: 8px;
+border-color: black;
+border-style:solid;
+background-color:whitesmoke;
+margin-top: 15px;
+}
+body{
+    background-image: url('https://files.123freevectors.com/wp-content/original/119241-blue-and-white-abstract-background-vector.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
