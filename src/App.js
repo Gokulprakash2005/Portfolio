@@ -3,6 +3,7 @@ import Home from './comp/Home';
 import About from './comp/About/About';
 import Navbar from './comp/navbar/navbar';
 import Contact from './comp/Contact/contact';
+import Resume from './comp/Resume/resume';
 function App() {
   return (
     <>
@@ -10,6 +11,7 @@ function App() {
     <Home/>
     <About/>
     <Contact/>
+    <Resume/>
     </>
   );
 }
