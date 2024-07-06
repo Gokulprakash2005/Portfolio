@@ -5,7 +5,7 @@ body {
 }
 
 .resume-head {
-  height: 100vh;
+  height: 91vh;
   width: 100vw;
   background-image: url("https://wallpaperaccess.com/full/5652012.jpg");
   background-repeat: no-repeat;
@@ -31,7 +31,7 @@ body {
 
 .profile-img {
   width: 500px;
-  height: 500px;
+  height: 480px;
   margin: 20px;
 }
 

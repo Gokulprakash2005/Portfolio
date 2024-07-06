@@ -1,38 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .headers {
     min-height: 100vh;
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('https://www.wallpaperflare.com/static/240/1011/656/abstract-digital-art-blue-white-wallpaper.jpg');
+    background-image: url('https://img.freepik.com/free-photo/cracked-black-wooden-textured-background_53876-104673.jpg?t=st=1720206875~exp=1720210475~hmac=a1e53139e7aa7f084a2c9534baea1277db127e8d8643bee15d133c686428cde1&w=996');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.contact-main {
-    max-width: 600px;
-    width: 100%;
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    width: 90%;
+    margin: 20px auto;
     padding: 20px;
     box-sizing: border-box;
+}
+
+.contact-main {
+    flex: 1;
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 12px;
+    border: 1px solid whitesmoke;
+    box-sizing: border-box;
+    margin-right: 20px; /* Provide spacing between contact-main and contact-side */
+    
 }
 
 .Contact-head {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    background-color: whitesmoke;
-    border-radius: 12px;
-    border: 1px solid whitesmoke;
-    padding: 20px;
-    box-sizing: border-box;
+    align-items: flex-start;
     width: 100%;
+    size-adjust: 2px;
+    max-height: 450px;
+    overflow-y: auto;
+    
+}
+
+.Contact-head > label {
+    margin-bottom: 1px;
 }
 
 .Contact-head > input, 
 .Contact-head > textarea {
     width: 100%;
-    max-width: 300px;
     padding: 8px;
     border-radius: 8px;
     border: 1px solid black;
@@ -56,6 +81,8 @@
 }
 
 #textarea {
+    width: 100%;
+    padding: 8px;
     border-radius: 8px;
     border: 1px solid black;
     background-color: whitesmoke;
@@ -64,13 +91,39 @@
 
 .contact-title {
     font-family: 'Cursive';
-    padding: 10px;
+    text-align: center; /* This centers the text */
+    display: block; /* Ensures the element behaves as a block */
+    width: 100%; /* Ensures the element takes up full width */
+    padding-left: 0; /* Reset any padding that might interfere */
+}
+
+.contact-side {
+    flex: 1;
+    color: white;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 170px; /* Provide spacing between contact-main and contact-side */
+}
+
+.contact-side > a {
+    display: block;
+    margin-bottom: 10px;
+    
 }
 
 @media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-main {
+        margin-right: 0; /* Reset margin for full width on smaller screens */
+        margin-bottom: 20px; /* Separate from contact-side */
+    }
+
     .Contact-head {
         padding: 15px;
-        margin-left: -7px;
     }
 
     .Contact-head > input, 
@@ -80,6 +133,11 @@
 
     #buttons {
         padding: 8px 16px;
+    }
+
+    .contact-side {
+        margin-left: 0; /* Reset margin for full width on smaller screens */
+        margin-top: 20px; /* Separate from contact-main */
     }
 }
 
@@ -101,4 +159,3 @@
         padding: 6px 12px;
     }
 }
-  
