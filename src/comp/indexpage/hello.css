@@ -1,0 +1,27 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: slategrey;
+}
+.offcanvas-body>p:hover{
+      color: gray;
+}
+i:hover{
+    color: gray;
+}
+.nav-item > a:hover {
+    color: gray !important;
+}
+.linkedin ,.mail,.git{
+    margin-top: 250px;
+    padding: 10px;
+    font-size: x-large;
+}
+.body-content {
+    height: auto; 
+    width: 80%;
+    background-color: white;
+    margin-top: 160px;
+    padding: 20px; 
+}

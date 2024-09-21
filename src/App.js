@@ -1,17 +1,11 @@
+import React from 'react';
 import './App.css';
-import Home from './comp/Home';
-import About from './comp/About/About';
-import Navbar from './comp/navbar/navbar';
-import Contact from './comp/Contact/contact';
-import Resume from './comp/Resume/resume';
+import Indexes from './comp/indexpage/hello';
+
 function App() {
   return (
     <>
-    <Navbar/>
-    <Home/>
-    <About/>
-    <Contact/>
-    <Resume/>
+    <Indexes/>
     </>
   );
 }
