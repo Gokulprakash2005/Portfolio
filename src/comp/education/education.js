@@ -9,18 +9,18 @@ function Education_Section() {
           <ul>
             <li>
               <h4>2022 - 2026: Bachelor of Technology in Information Technology</h4>
-              <p>Dr. Mahalingam College of Engineering and Technology</p>
-              <p>GPA: 8.275/10.0</p>
+              <h5>Dr. Mahalingam College of Engineering and Technology</h5>
+              <h5>GPA: 8.275/10.0</h5>
             </li>
             <li>
               <h4>2022: Class 12th State Board  - Computer Science</h4>
-              <p>RGM Matric Hr Sec School, Udumalpet</p>
-              <p>Percentage: 81.8%</p>
+              <h5>RGM Matric Hr Sec School, Udumalpet</h5>
+              <h5>Percentage: 81.8%</h5>
             </li>
             <li>
               <h4>2020: Class 10th State Board</h4>
-              <p>RGM Matric Hr Sec School, Udumalpet</p>
-              <p>Percentage: 94.6%</p>
+              <h5>RGM Matric Hr Sec School, Udumalpet</h5>
+              <h5>Percentage: 94.6%</h5>
             </li>
           </ul>
         </div>
