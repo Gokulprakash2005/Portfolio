@@ -43,17 +43,15 @@ function Projects_Section() {
                     and JavaScript. The application features an intuitive user interface that adapts 
                     to different screen sizes, providing a consistent and user-friendly experience.
                   </h5>
-                  <h5>
-                    <a href="#" target="_blank" rel="noopener noreferrer">Link to Demo</a>
-                  </h5>
+                  <a href="#" target="_blank" rel="noopener noreferrer" >Link to Demo</a>
                 </div>
               </div>
             </div>
-            <button className="carousel-control-prev ms-3" type="button" data-bs-target="#projectsCarousel" data-bs-slide="prev">
+            <button className="carousel-control-prev " style={{ marginTop:"140px" }} type="button" data-bs-target="#projectsCarousel" data-bs-slide="prev">
               <span className="carousel-control-prev-icon" aria-hidden="true" style={{ filter: "invert(100%)" }}></span>
               <span className="visually-hidden">Previous</span>
             </button>
-            <button className="carousel-control-next me-3" type="button" data-bs-target="#projectsCarousel" data-bs-slide="next">
+            <button className="carousel-control-next " style={{ marginTop:"140px" }} type="button" data-bs-target="#projectsCarousel" data-bs-slide="next">
               <span className="carousel-control-next-icon" aria-hidden="true" style={{ filter: "invert(100%)" }}></span>
               <span className="visually-hidden">Next</span>
             </button>            

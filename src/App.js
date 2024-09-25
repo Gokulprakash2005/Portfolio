@@ -6,6 +6,7 @@ import Education_Section from './comp/education/education';
 import Experience_Section from './comp/experience/exp';
 import Projects_Section from './comp/projects/project';
 import Certifications_Section from './comp/certficates/certficates';
+import Contact_Section from './comp/contact/contact';
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
     <Experience_Section/>
     <Projects_Section />
     <Certifications_Section />
+    <Contact_Section/>
     </>
   );
 }
