@@ -5,7 +5,7 @@ function Indexes() {
     <body>
 	<div className="offcanvas offcanvas-start text-bg-dark" id="demo">
         <div className="offcanvas-header">
-          <h1 className="offcanvas-title ">Gokul Prakash K</h1>
+          <h1 className="offcanvas-title">Gokul Prakash K</h1>
           <button type="button" className="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
         </div>
         <div className="offcanvas-body">
@@ -25,10 +25,10 @@ function Indexes() {
           <h4 className="navbar-brand">Gokul Prakash</h4>
           <ul className="navbar-nav d-none d-sm-flex ms-auto">
             <li className="nav-item">
-              <a className="nav-link text-white me-2" href="#home">Home</a>
+              <a className="nav-link text-white me-2" href="C:\Users\gokul\OneDrive\Desktop\papom\Portfolio\src\comp\indexpage\hello.js">Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white me-2" href="#about">About</a>
+              <a className="nav-link text-white me-2" href="C:\Users\gokul\OneDrive\Desktop\papom\Portfolio\src\comp\about\about.js">About</a>
             </li>
             <li className="nav-item">
               <a className="nav-link text-white me-2" href="#Certificates">Certificates </a>
@@ -62,13 +62,16 @@ function Indexes() {
                 <h5>I am a passionate web developer with hands-on experience in frontend technologies like HTML, CSS, JavaScript, and React.js, and backend expertise in Java, Spring Boot. Skilled in problem-solving and version control with Git. For more details, <a href="https://github.com/Gokulprakash2005?tab=repositories">click here</a>.</h5>
                 <h5>gokulprakash1301@gmail.com</h5>
                 <h5>+91 7603986981</h5>
-                <a href="https://github.com/Gokulprakash2005"><i className="fa-brands fa-github fs-4 text-black me-2" ></i></a>
+                <a href="file:///C:/Users/gokul/Downloads/GokulPrakash-Resume.pdf">
+                <button type="button" className="btn btn-warning">Open Resume</button>
+                </a><br></br>
+                <a href="https://github.com/Gokulprakash2005"><i className="fa-brands fa-github fs-4 text-black me-2 mt-3" ></i></a>
                 <a href="https://www.linkedin.com/in/gokulprakash08/"><i className="fa-brands fa-linkedin fs-4  text-black me-2"></i></a>
                 <a href="mailto:gokulprakash1301@gmail.com"><i className="fa-solid fa-envelope  fs-4 text-black"></i></a>
                 </center>
             </div>
         </div>
-    </div>
+    </div> 
 </body>
     
   );

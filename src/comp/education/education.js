@@ -10,7 +10,7 @@ function Education_Section() {
             <li>
               <h4>2022 - 2026: Bachelor of Technology in Information Technology</h4>
               <h5>Dr. Mahalingam College of Engineering and Technology</h5>
-              <h5>GPA: 8.275/10.0</h5>
+              <h5>GPA: 8.369/10.0</h5>
             </li>
             <li>
               <h4>2022: Class 12th State Board  - Computer Science</h4>
