@@ -9,6 +9,7 @@ import Certifications_Section from './comp/certficates/certficates';
 import Contact_Section from './comp/contact/contact';
 import Skills_Section from './comp/skills/skills';
 import Navbar from './comp/navbar/navbar';
+
 function App() {
   return (
     <>
@@ -21,6 +22,7 @@ function App() {
     <Certifications_Section />
     <Skills_Section/>
     <Contact_Section/>
+  
     </>
   );
 }

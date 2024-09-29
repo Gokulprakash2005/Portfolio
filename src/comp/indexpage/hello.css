@@ -21,3 +21,9 @@ i:hover{
     margin-top: 160px;
     padding: 50px; 
 }
+.text-wrap {
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
+  }
+  

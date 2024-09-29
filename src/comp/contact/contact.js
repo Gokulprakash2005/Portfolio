@@ -11,8 +11,10 @@ function Contact_Section() {
       <p>
         <i class="fa-regular fa-user"></i> Gokul Prakash K<br></br>
         <i class="fa-solid fa-phone"></i> +91 7603986981<br></br>
-        <i class="fa-solid fa-envelope"></i> gokulprakash1301@gmail.com
-        
+        <div className="d-flex justify-content-center  align-items-center ">
+                  <i className="fa-solid fa-envelope me-2"></i>
+                  <span>gokulprakash1301@gmail.com</span>
+        </div>  
       </p>
       <div>
         <a href="https://github.com/Gokulprakash2005" class="text-white me-2">
