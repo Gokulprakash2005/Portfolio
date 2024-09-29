@@ -3,7 +3,7 @@ import React from "react";
 function Certifications_Section() {
   return (
     <>
-      <div className="container mt-5">
+      <div id="certficates" className="container mt-5">
         <div className="p-5 bg-light text-dark rounded">
           <h1>Certifications & Achievements</h1>
           <ul>

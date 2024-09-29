@@ -3,7 +3,7 @@ import React from "react";
 function Projects_Section() {
   return (
     <>
-      <div className="container mt-5">
+      <div id="projects" className="container mt-5">
         <div className="p-5 bg-light text-dark rounded">
           <h1>Projects</h1>
           <div id="projectsCarousel" className="carousel slide" data-bs-ride="carousel">

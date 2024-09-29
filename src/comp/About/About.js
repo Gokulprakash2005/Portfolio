@@ -3,7 +3,7 @@ function About()
 {
     return(
         <>
-        <div className="container" style={{marginTop:"80px"}} >
+        <div id="about" className="container" style={{marginTop:"80px"}} >
         <div className="mt-5 p-5 bg-white text-dark rounded">
         <h1>About Me</h1> 
         <h5> Hello, I'm Gokul Prakash, a passionate web developer with hands-on 

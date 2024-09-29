@@ -4,15 +4,11 @@
 body{
     background-color:#36454F ;
 }
-.offcanvas-body>p:hover{
-      color: gray;
-}
+
 i:hover{
     color: gray;
 }
-.nav-item > a:hover {
-    color: gray !important;
-}
+
 .linkedin ,.mail,.git{
     margin-top: 250px;
     padding: 10px;

@@ -3,7 +3,7 @@ import React from "react";
 function Contact_Section() {
   return (
     <>
-    <footer>
+    <footer id="contact">
         <center>
   <div class="container-fluid mt-5 mb-3">
     <div class="mt-4 p-5 bg-dark text-white rounded">

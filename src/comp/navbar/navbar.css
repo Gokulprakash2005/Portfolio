@@ -1,0 +1,14 @@
+.nav-item > a:hover {
+    color: gray !important;
+}
+.offcanvas-body>p:hover{
+    color: gray;
+}
+.offcanvas-body>a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.offcanvas-body>a:hover{
+    color: gray;
+}
