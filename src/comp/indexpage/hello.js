@@ -18,7 +18,7 @@ function Indexes() {
                 <h1>Gokul Prakash K</h1>
                 <h4>Spring Boot Developer</h4>
                 <h5>I am a passionate web developer with hands-on experience in frontend technologies like HTML, CSS, JavaScript, and React.js, and backend expertise in Java, Spring Boot. Skilled in problem-solving and version control with Git. For more details, <a href="https://github.com/Gokulprakash2005?tab=repositories">click here</a>.</h5>
-                <h5>gokulprakash1301@gmail.com</h5>
+                <p>gokulprakash1301@gmail.com</p>
                 <h5>+91 7603986981</h5>
                 <a href="GokulPrakash-Resume.pdf" target="_blank" class="btn btn-outline-warning">View Resume</a>
                 <br></br>
