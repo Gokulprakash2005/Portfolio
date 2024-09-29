@@ -4,11 +4,12 @@
 .offcanvas-body>p:hover{
     color: gray;
 }
-.offcanvas-body>a{
+.offcanvas-body>p>a{
     text-decoration: none;
     color: white;
     font-family: 'Times New Roman', Times, serif;
 }
 .offcanvas-body>a:hover{
     color: gray;
+    
 }
