@@ -26,4 +26,11 @@ i:hover{
     text-overflow: ellipsis; 
     white-space: nowrap; 
   }
+.gfg{
+    height: 23px;
+    width: 35px;
+    margin-left: 5px;
+    margin-bottom: 8px;
+}
+
   

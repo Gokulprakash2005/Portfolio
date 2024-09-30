@@ -25,6 +25,7 @@ function Indexes() {
                 <a href="https://github.com/Gokulprakash2005"><i className="fa-brands fa-github fs-4 text-black me-2 mt-3" ></i></a>
                 <a href="https://www.linkedin.com/in/gokulprakash08/"><i className="fa-brands fa-linkedin fs-4  text-black me-2"></i></a>
                 <a href="mailto:gokulprakash1301@gmail.com"><i className="fa-solid fa-envelope  fs-4 text-black"></i></a>
+                <a href="https://www.geeksforgeeks.org/user/gokulprakzp1i/ "><img src="https://media.geeksforgeeks.org/wp-content/uploads/20210224031038/Capture4.PNG" alt="" className="gfg"></img></a>
                 </center>
             </div>
         </div>
