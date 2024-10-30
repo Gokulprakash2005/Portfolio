@@ -8,7 +8,7 @@ function Indexes() {
      
             <div className="col-12 col-lg-6 d-flex justify-content-center justify-content-lg-start">
                 <div className="card profile" style={{ width: "320px" }}>
-                <img className="card-img-top" src="https://media.licdn.com/dms/image/v2/D5635AQGfKzrGxhf2xQ/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1720155398503?e=1728885600&v=beta&t=1k0ULneCxw_phN0O7NTz1qPa-xq4b2irLYINBDsEb0E"  style={{ width: "100%",height:"100%" }} />
+                <img className="card-img-top"  src={`${process.env.PUBLIC_URL}/logo193.png`}   style={{ width: "100%", height: "100%" }}   alt="Profile"/>
                 </div>
             </div>
         
