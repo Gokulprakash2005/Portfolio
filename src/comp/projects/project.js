@@ -50,7 +50,7 @@ function Projects_Section() {
                 <div className="d-block w-100">
                   <h4>GPA Calculator</h4>
                   <h5>
-                  Developed a GPA Calculator project with a responsive design using HTML, Bootstrap, and JavaScript. The application allows users to input their course grades and credit hours, dynamically calculating their GPA in real time. It features a user-friendly interface with validation to ensure accurate input, along with clear visual feedback for users. The responsive design ensures accessibility on various devices, enhancing the overall user experience
+                  Developed a GPA Calculator project with a responsive design using HTML, Bootstrap, and JavaScript. The application allows users to input their course grades and credit hours, dynamically calculating their GPA in real time.
                   </h5>
                   <h5><a href="https://gokulprakash2005.github.io/GPA-calculator/" target="_blank" rel="noopener noreferrer" >Link to Demo</a></h5>
                 </div>
@@ -59,7 +59,7 @@ function Projects_Section() {
                 <div className="d-block w-100">
                   <h4>CGPA Calculator</h4>
                   <h5>
-                  Developed a CGPA Calculator project with a responsive design using HTML, Bootstrap, and JavaScript. This application enables users to input their course grades and corresponding credit hours, calculating their Cumulative Grade Point Average (CGPA) automatically. It features an intuitive interface with validation checks to ensure accurate data entry, providing immediate visual feedback to users. The responsive design allows seamless access across different devices, enhancing usability and accessibility for all users.
+                  Developed a CGPA Calculator project with a responsive design using HTML, Bootstrap, and JavaScript. This application enables users to input their course grades and corresponding credit hours, calculating their Cumulative Grade Point Average (CGPA) automatically.
                   </h5>
                   <h5><a href="https://gokulprakash2005.github.io/CGPA-Calculator/" target="_blank" rel="noopener noreferrer" >Link to Demo</a></h5>
                 </div>
@@ -68,7 +68,7 @@ function Projects_Section() {
                 <div className="d-block w-100">
                   <h4>Palindrome Checker</h4>
                   <h5>
-                  Developed a Palindrome Checker project with a responsive design using HTML, Bootstrap, and JavaScript. This application allows users to input a string and determines whether it is a palindrome—meaning it reads the same backward as forward. The user-friendly interface provides instant feedback, displaying results clearly and concisely. With real-time validation, users are guided to enter valid inputs, ensuring an engaging and interactive experience. The responsive design ensures optimal functionality on various devices, making it accessible to all users
+                  Developed a Palindrome Checker project with a responsive design using HTML, Bootstrap, and JavaScript. This application allows users to input a string and determines whether it is a palindrome—meaning it reads the same backward as forward. 
                   </h5>
                   <h5><a href="https://gokulprakash2005.github.io/Palindrome_Checker/" target="_blank" rel="noopener noreferrer" >Link to Demo</a></h5>
                 </div>
