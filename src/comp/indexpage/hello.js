@@ -26,6 +26,7 @@ function Indexes() {
                 <a href="https://www.linkedin.com/in/gokulprakash08/"><i className="fa-brands fa-linkedin fs-4  text-black me-2"></i></a>
                 <a href="mailto:gokulprakash1301@gmail.com"><i className="fa-solid fa-envelope  fs-4 text-black"></i></a>
                 <a href="https://www.geeksforgeeks.org/user/gokulprakzp1i/ "><img src="https://media.geeksforgeeks.org/wp-content/uploads/20210224031038/Capture4.PNG" alt="" className="gfg"></img></a>
+                <a href="https://leetcode.com/u/gokulprakash1301/"><img src={`${process.env.PUBLIC_URL}/logo194.png`} alt="" className="leetcode"></img></a>
                 </center>
             </div>
         </div>
