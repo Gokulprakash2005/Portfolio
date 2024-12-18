@@ -5,9 +5,10 @@ function Projects_Section() {
     <>
       <div id="projects" className="container mt-5" >
         <div className="p-5 bg-light text-dark rounded " >
-          <h1>Projects</h1>
+         <center> <h1>Projects</h1> </center>
           <div id="projectsCarousel" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner">
+              <center>
               <div className="carousel-item active">
                 <div className="d-block w-100">
                   <h4>Student Management System</h4>
@@ -18,10 +19,13 @@ function Projects_Section() {
                     across devices.
                   </h5>
                   <h5>
-                    <a href="#" target="_blank" rel="noopener noreferrer">Link to Demo</a>
+                    <a href="https://github.com/Gokulprakash2005/StudentDetails" target="_blank" rel="noopener noreferrer">click here</a>
                   </h5>
                 </div>
               </div>
+              </center>
+
+              <center>
               <div className="carousel-item">
                 <div className="d-block w-100">
                   <h4>Volunteer Registration Page for Disaster Management</h4>
@@ -31,10 +35,13 @@ function Projects_Section() {
                     seamless data storage in the database.
                   </h5>
                   <h5>
-                    <a href="#" target="_blank" rel="noopener noreferrer">Link to Demo</a>
+                    <a href="https://github.com/Gokulprakash2005/Registration_Page" target="_blank" rel="noopener noreferrer">click here</a>
                   </h5>
                 </div>
               </div>
+              </center>
+
+              <center>
               <div className="carousel-item">
                 <div className="d-block w-100">
                   <h4>To-Do List Application</h4>
@@ -46,6 +53,9 @@ function Projects_Section() {
                   <h5><a href="https://gokulprakash2005.github.io/Todo-List/" target="_blank" rel="noopener noreferrer" >Link to Demo</a></h5>
                 </div>
               </div>
+              </center>
+
+              <center>
               <div className="carousel-item">
                 <div className="d-block w-100">
                   <h4>GPA Calculator</h4>
@@ -55,7 +65,10 @@ function Projects_Section() {
                   <h5><a href="https://gokulprakash2005.github.io/GPA-calculator/" target="_blank" rel="noopener noreferrer" >Link to Demo</a></h5>
                 </div>
               </div>
-              <div className="carousel-item">
+              </center>
+
+              <center>
+               <div className="carousel-item">
                 <div className="d-block w-100">
                   <h4>CGPA Calculator</h4>
                   <h5>
@@ -64,6 +77,9 @@ function Projects_Section() {
                   <h5><a href="https://gokulprakash2005.github.io/CGPA-Calculator/" target="_blank" rel="noopener noreferrer" >Link to Demo</a></h5>
                 </div>
               </div>
+              </center>
+
+              <center>
               <div className="carousel-item">
                 <div className="d-block w-100">
                   <h4>Palindrome Checker</h4>
@@ -73,6 +89,7 @@ function Projects_Section() {
                   <h5><a href="https://gokulprakash2005.github.io/Palindrome_Checker/" target="_blank" rel="noopener noreferrer" >Link to Demo</a></h5>
                 </div>
               </div>
+            </center>
             </div>
             <button className="carousel-control-prev " style={{ marginTop:"140px" }} type="button" data-bs-target="#projectsCarousel" data-bs-slide="prev">
               <span className="carousel-control-prev-icon" aria-hidden="true" style={{ filter: "invert(100%)" }}></span>

@@ -6,12 +6,14 @@ function About()
         <div id="about" className="container" style={{marginTop:"80px"}} >
         <div className="mt-5 p-5 bg-white text-dark rounded">
         <h1>About Me</h1> 
-        <h5> Hello, I'm Gokul Prakash, a passionate web developer with hands-on 
-            experience in frontend technologies like HTML, CSS, JavaScript, and React.js. 
-            I have backend expertise in Java, Spring Boot, and databases like SQL and MySQL. 
-            I am skilled in problem-solving, version control with Git. 
-            I am currently in my 3rd year of B.Tech in IT at Dr. Mahalingam College of Engineering and Technology also I have gained valuable experience in building responsive websites and applications, 
-            mastering tools like Bootstrap for responsive design and Git for version control..<a href="https://github.com/Gokulprakash2005?tab=repositories">Click here</a> </h5> 
+        <h5> 
+          I am a  Spring Boot Developer with a strong foundation in web development and problem-solving. My expertise includes frontend technologies like HTML, CSS, JavaScript, and React.js, along with backend proficiency in Java and Spring Boot. I have solved over 55 problems on GeeksforGeeks and also i have solved over 55 problems on LeetCode  to enhance my problem-solving skills using Java.<br></br>
+          In addition to honing my technical skills, I have completed several projects, including:<br></br>
+          <h4>Student Management System:</h4> A full-stack application with CRUD functionality using Spring Boot and MySQL.
+          <h4>Volunteer Registration Page:</h4> A responsive registration platform for disaster management, leveraging Spring Boot and MySQL.
+          <h4>To-Do List Application:</h4> A sleek, responsive app designed with HTML, Bootstrap, and JavaScript.
+          <h4>Portfolio Website:</h4> A personal website built with React.js to showcase my skills and projects .<br></br>
+          These experiences have strengthened my ability to create scalable, user-focused web applications while continually improving through problem-solving challenges.<a href="https://github.com/Gokulprakash2005">Click here</a> </h5> 
         </div>
         </div>
         </>
