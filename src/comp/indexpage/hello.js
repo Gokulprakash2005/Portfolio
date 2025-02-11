@@ -20,7 +20,7 @@ function Indexes() {
                 <h5>I am a passionate web developer with hands-on experience in frontend technologies like HTML, CSS, JavaScript, and React.js, and backend expertise in Java, Spring Boot. Skilled in problem-solving and version control with Git. For more details, <a href="https://github.com/Gokulprakash2005">click here</a>.</h5>
                 <p className="text-wrap text-truncate">gokulprakash1301@gmail.com</p>
                 <h5>+91 7603986981</h5>
-                <a href="https://lime-adriane-26.tiiny.site/" target="_blank" class="btn btn-outline-warning"  download>View Resume</a>
+                <a href="https://plum-eleanora-39.tiiny.site/" target="_blank" class="btn btn-outline-warning"  download>View Resume</a>
                 <br></br>
                 <a href="https://github.com/Gokulprakash2005"><i className="fa-brands fa-github fs-4 text-black me-2 mt-3" ></i></a>
                 <a href="https://www.linkedin.com/in/gokulprakash08/"><i className="fa-brands fa-linkedin fs-4  text-black me-2"></i></a>
