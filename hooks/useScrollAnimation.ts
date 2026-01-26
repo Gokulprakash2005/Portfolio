@@ -25,10 +25,11 @@ export function useScrollAnimation() {
         const magneticElements = document.querySelectorAll('.magnetic');
         
         magneticElements.forEach((element) => {
-            const handleMouseMove = (e: MouseEvent) => {
+            const handleMouseMove = (e: Event) => {
+                const mouseEvent = e as MouseEvent;
                 const rect = element.getBoundingClientRect();
-                const x = e.clientX - rect.left - rect.width / 2;
-                const y = e.clientY - rect.top - rect.height / 2;
+                const x = mouseEvent.clientX - rect.left - rect.width / 2;
+                const y = mouseEvent.clientY - rect.top - rect.height / 2;
                 
                 (element as HTMLElement).style.transform = `translate(${x * 0.1}px, ${y * 0.1}px)`;
             };
