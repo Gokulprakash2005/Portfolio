@@ -24,40 +24,37 @@ export default function Navbar() {
     ];
 
     return (
-        <nav className="fixed top-0 w-full bg-background/80 backdrop-blur-lg z-50 border-b border-border">
+        <nav className="fixed top-0 w-full bg-background/95 backdrop-blur-sm z-50 border-b border-border">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16">
-                    {/* Logo */}
                     <div className="flex-shrink-0">
-                        <a href="#" className="text-2xl font-bold gradient-text">
-                            Portfolio
+                        <a href="#" className="text-muted-foreground  font-medium text-foreground">
+                            K.Gokul Prakash
                         </a>
                     </div>
 
-                    {/* Desktop Navigation */}
                     <div className="hidden md:block">
-                        <div className="ml-10 flex items-center space-x-8">
+                        <div className="ml-10 flex items-center space-x-6">
                             {navLinks.map((link) => (
                                 <a
                                     key={link.name}
                                     href={link.href}
-                                    className="text-foreground hover:text-primary transition-colors duration-200 font-medium"
+                                    className="text-muted-foreground hover:text-foreground transition-colors duration-200 font-medium text-sm"
                                 >
                                     {link.name}
                                 </a>
                             ))}
 
-                            {/* Theme Toggle */}
                             {mounted && (
                                 <button
                                     onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-                                    className="p-2 rounded-lg bg-secondary hover:bg-accent transition-colors duration-200"
+                                    className="p-2 rounded-md bg-secondary hover:bg-accent transition-colors duration-200"
                                     aria-label="Toggle theme"
                                 >
                                     {theme === "dark" ? (
-                                        <HiSun className="w-5 h-5" />
+                                        <HiSun className="w-4 h-4" />
                                     ) : (
-                                        <HiMoon className="w-5 h-5" />
+                                        <HiMoon className="w-4 h-4" />
                                     )}
                                 </button>
                             )}

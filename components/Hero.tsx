@@ -15,7 +15,7 @@ export default function Hero() {
     }, []);
 
     return (
-        <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-16">
+        <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20 md:pt-16">
             {/* Particle Background */}
             <div className="particles-bg">
                 {[...Array(50)].map((_, i) => (
@@ -53,61 +53,64 @@ export default function Hero() {
                 }}
             ></div>
 
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-                <div className="fade-in-up animate">
-                    <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 floating">
-                        Hi, I'm <span className="gradient-text-hero">K.Gokul Prakash</span>
-                    </h1>
-                    <h2 className="text-2xl sm:text-3xl md:text-4xl text-muted-foreground mb-8 font-medium typing-animation">
-                        Full-Stack Developer
-                    </h2>
-                    <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto mb-12 leading-relaxed fade-in-up animate" style={{ animationDelay: "0.3s" }}>
-                        Skilled in modern web technologies with hands-on experience across{" "}
-                        <span className="gradient-text font-semibold">frontend, backend, database, and deployment</span>. 
-                        Worked on real-world SaaS products in a startup environment using{" "}
-                        <span className="gradient-text font-semibold">Next.js, Neon DB, and AI-assisted development tools</span>
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10 py-4 md:py-0">
+                <div className="space-y-8">
+                    <div className="space-y-4">
+                        <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-foreground leading-tight">
+                            Hi, I'm <span className="text-primary font-bold">K. Gokul Prakash</span>
+                        </h1>
+                        <h2 className="text-lg sm:text-xl md:text-2xl text-muted-foreground font-medium">
+                            Full-Stack Developer
+                        </h2>
+                    </div>
+                    
+                    <p className="text-sm sm:text-base md:text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+                        Full-stack developer skilled in modern web technologies with hands-on internship experience across{" "}
+                        <span className="text-foreground font-medium">frontend, backend, database, and deployment workflows</span>. 
+                        Experienced building production-grade applications, REST APIs, and automation systems using{" "}
+                        <span className="text-foreground font-medium">Next.js, React.js, Node.js, Spring Boot, and relational databases</span>.
                     </p>
 
-                    <div className="flex flex-col sm:flex-row gap-6 justify-center items-center fade-in-up animate" style={{ animationDelay: "0.6s" }}>
+                    <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                         <a
                             href="#projects"
-                            className="btn-3d px-10 py-5 bg-gradient-to-r from-purple-600 to-blue-600 text-white rounded-xl font-bold text-lg shadow-2xl hover:shadow-purple-500/25 transform hover:scale-105 transition-all duration-300 glass"
+                            className="px-6 py-3 bg-primary text-primary-foreground rounded-lg font-medium hover:bg-primary/90 transition-colors duration-200"
                         >
-                            🚀 Explore My Work
+                            View Projects
                         </a>
                         <a
                             href="#contact"
-                            className="btn-3d px-10 py-5 bg-transparent border-2 border-purple-500 text-purple-500 rounded-xl font-bold text-lg hover:bg-purple-500 hover:text-white transition-all duration-300 glass magnetic"
+                            className="px-6 py-3 border border-border text-foreground rounded-lg font-medium hover:bg-secondary transition-colors duration-200"
                         >
-                            💬 Let's Connect
+                            Contact Me
+                        </a>
+                        <a
+                            href="https://gokul-prakash-k.tiiny.site"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="px-6 py-3 bg-secondary text-secondary-foreground rounded-lg font-medium hover:bg-secondary/80 transition-colors duration-200"
+                        >
+                            Resume
                         </a>
                     </div>
 
-                    {/* 3D Stats Cards */}
-                    <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-16 max-w-4xl mx-auto fade-in-up animate" style={{ animationDelay: "0.9s" }}>
-                        <div className="card-3d glass rounded-2xl p-6 text-center">
-                            <div className="text-3xl font-bold gradient-text mb-2">10+</div>
-                            <div className="text-muted-foreground">Projects Completed</div>
+                    <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl mx-auto">
+                        <div className="bg-card border border-border rounded-lg p-4 text-center">
+                            <div className="text-2xl font-semibold text-primary mb-1">10+</div>
+                            <div className="text-sm text-muted-foreground">Projects</div>
                         </div>
-                        <div className="card-3d glass rounded-2xl p-6 text-center">
-                            <div className="text-3xl font-bold gradient-text mb-2">1+</div>
-                            <div className="text-muted-foreground">Years Experience</div>
+                        <div className="bg-card border border-border rounded-lg p-4 text-center">
+                            <div className="text-2xl font-semibold text-primary mb-1">1+</div>
+                            <div className="text-sm text-muted-foreground">Year Experience</div>
                         </div>
-                        <div className="card-3d glass rounded-2xl p-6 text-center">
-                            <div className="text-3xl font-bold gradient-text mb-2">10+</div>
-                            <div className="text-muted-foreground">Technologies</div>
+                        <div className="bg-card border border-border rounded-lg p-4 text-center">
+                            <div className="text-2xl font-semibold text-primary mb-1">10+</div>
+                            <div className="text-sm text-muted-foreground">Technologies</div>
                         </div>
                     </div>
                 </div>
 
-                {/* Enhanced Scroll Indicator */}
-                <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
-                    <a href="#about" aria-label="Scroll to about section" className="magnetic">
-                        <div className="w-12 h-12 rounded-full glass flex items-center justify-center hover:scale-110 transition-transform duration-300">
-                            <HiArrowDown className="w-6 h-6 text-purple-500" />
-                        </div>
-                    </a>
-                </div>
+                
             </div>
         </section>
     );

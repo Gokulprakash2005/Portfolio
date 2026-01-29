@@ -56,6 +56,13 @@ export default function Contact() {
             color: "hover:text-red-500",
         },
         {
+            name: "Phone",
+            value: "+91 7603986981",
+            href: "tel:+917603986981",
+            icon: HiMail,
+            color: "hover:text-green-500",
+        },
+        {
             name: "LinkedIn",
             value: "linkedin.com/in/gokulprakash08",
             href: "https://www.linkedin.com/in/gokulprakash08/",
@@ -100,17 +107,17 @@ export default function Contact() {
                                 href={method.href}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="glass rounded-xl p-6 card-hover group"
+                                className="bg-card border border-border rounded-lg p-6 hover:shadow-lg transition-shadow duration-300"
                             >
                                 <div className="flex items-center">
-                                    <div className={`w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center mr-4 transition-all duration-300 group-hover:scale-110`}>
-                                        <Icon className={`w-6 h-6 text-primary transition-colors duration-300 ${method.color}`} />
+                                    <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center mr-4">
+                                        <Icon className="w-5 h-5 text-primary" />
                                     </div>
                                     <div>
-                                        <h3 className="text-lg font-bold text-foreground mb-1">
+                                        <h3 className="text-base font-semibold text-foreground mb-1">
                                             {method.name}
                                         </h3>
-                                        <p className="text-muted-foreground group-hover:text-primary transition-colors">
+                                        <p className="text-sm text-muted-foreground">
                                             {method.value}
                                         </p>
                                     </div>
@@ -121,17 +128,19 @@ export default function Contact() {
                 </div>
 
                 {/* CTA Section */}
-                <div className="glass rounded-2xl p-8 md:p-12 text-center">
-                    <HiCode className="w-16 h-16 text-primary mx-auto mb-6" />
-                    <h3 className="text-3xl font-bold text-foreground mb-4">
+                <div className="bg-card border border-border rounded-lg p-8 text-center">
+                    <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
+                        <HiCode className="w-6 h-6 text-primary" />
+                    </div>
+                    <h3 className="text-xl font-semibold text-foreground mb-4">
                         Ready to Hire a Dedicated Developer?
                     </h3>
-                    <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
+                    <p className="text-sm text-muted-foreground mb-6 max-w-2xl mx-auto">
                         Looking for a skilled full-stack developer to join your team? I'm actively seeking new opportunities and would love to discuss how I can contribute to your projects.
                     </p>
                     <button
                         onClick={() => setShowModal(true)}
-                        className="inline-block px-8 py-4 bg-primary text-primary-foreground rounded-lg font-semibold text-lg hover:scale-105 transition-transform duration-200 shadow-lg hover:shadow-xl"
+                        className="px-6 py-3 bg-primary text-primary-foreground rounded-lg font-medium hover:bg-primary/90 transition-colors duration-200"
                     >
                         Send Me an Email
                     </button>

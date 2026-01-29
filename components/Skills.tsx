@@ -89,8 +89,8 @@ export default function Skills() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                 <div className="text-center mb-16 fade-in-up animate">
                     <div className="inline-flex items-center gap-2 mb-4">
-                        <HiSparkles className="w-8 h-8 text-purple-500" />
-                        <h2 className="text-4xl md:text-5xl font-bold gradient-text-hero">
+                        
+                        <h2 className="text-4xl md:text-5xl font-bold  gradient-text-alt ">
                             Skills & Technologies
                         </h2>
                     </div>
@@ -206,21 +206,21 @@ export default function Skills() {
                 </div>
 
                 {/* Experience Summary */}
-                <div className="mt-16 text-center fade-in-up animate" style={{ animationDelay: "0.8s" }}>
-                    <div className="glass rounded-2xl p-8 max-w-4xl mx-auto card-3d">
-                        <h3 className="text-2xl font-bold gradient-text mb-6">Technical Expertise</h3>
+                <div className="mt-16 text-center">
+                    <div className="bg-card border border-border rounded-lg p-8 max-w-4xl mx-auto">
+                        <h3 className="text-2xl font-bold text-foreground mb-6">Technical Expertise</h3>
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                             <div className="text-center">
-                                <div className="text-3xl font-bold gradient-text mb-2">4</div>
-                                <div className="text-muted-foreground">Months Internship Experience</div>
+                                <div className="text-3xl font-bold text-primary mb-2">4</div>
+                                <div className="text-base text-muted-foreground font-medium">Months Internship Experience</div>
                             </div>
                             <div className="text-center">
-                                <div className="text-3xl font-bold gradient-text mb-2">10+</div>
-                                <div className="text-muted-foreground">Project Contributions</div>
+                                <div className="text-3xl font-bold text-primary mb-2">10+</div>
+                                <div className="text-base text-muted-foreground font-medium">Project Contributions</div>
                             </div>
                             <div className="text-center">
-                                <div className="text-3xl font-bold gradient-text mb-2">8+</div>
-                                <div className="text-muted-foreground">Technologies Mastered</div>
+                                <div className="text-3xl font-bold text-primary mb-2">8+</div>
+                                <div className="text-base text-muted-foreground font-medium">Technologies Mastered</div>
                             </div>
                         </div>
                     </div>

@@ -5,22 +5,29 @@ import { HiAcademicCap, HiCheckCircle } from "react-icons/hi";
 export default function Certifications() {
     const certifications = [
         {
-            title: "Java OOP",
-            issuer: "Simplilearn SkillUp",
+            title: "Web Development Certification",
+            issuer: "IBM (Coursera)",
             date: "2024",
-            description: "Completed foundational Object-Oriented Programming course with hands-on Java exercises.",
+            description: "Covering HTML, CSS, JavaScript, and modern web development practices.",
         },
         {
-            title: "Web Development (HTML, CSS, JS)",
-            issuer: "IBM via Coursera",
+            title: "Java OOP Certification",
+            issuer: "Simplilearn",
             date: "2024",
-            description: "Gained practical frontend skills through building responsive web interfaces.",
+            description: "Focused on object-oriented programming concepts and Java fundamentals.",
+        },
+        {
+            title: "Introduction to Java Certification",
+            issuer: "Coursera",
+            date: "2024",
+            description: "Covering core Java concepts including variables, data types, arrays, control statements, OOP, and Java Class Library.",
         },
     ];
 
     const achievements = [
-        "3rd Prize — Hackophilic 2024, Dr. MCET",
-        "Awarded for developing an innovative problem-solving project under timed conditions",
+        "3rd Prize Winner, Hackophilic Hackathon — Dr. Mahalingam College of Engineering and Technology, recognized for technical innovation and teamwork.",
+        "Solved 400+ problems on LeetCode, strengthening data structures, algorithms, and problem-solving skills.",
+        "GitHub Contributions: Developed and maintained 15+ GitHub projects and organization repositories spanning full-stack web applications, automation tools, utility calculators, and problem-solving implementations.",
     ];
 
     return (
@@ -30,7 +37,7 @@ export default function Certifications() {
                     <h2 className="text-4xl md:text-5xl font-bold mb-4 gradient-text-alt">
                         Certifications & Achievements
                     </h2>
-                    <div className="w-20 h-1 bg-primary mx-auto rounded-full"></div>
+                                      
                 </div>
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
@@ -42,16 +49,16 @@ export default function Certifications() {
                         </h3>
                         <div className="space-y-4">
                             {certifications.map((cert, index) => (
-                                <div key={index} className="glass rounded-xl p-6 card-hover">
-                                    <h4 className="text-xl font-bold text-foreground mb-2">
+                                <div key={index} className="bg-card border border-border rounded-lg p-6">
+                                    <h4 className="text-lg font-semibold text-foreground mb-2">
                                         {cert.title}
                                     </h4>
-                                    <div className="flex items-center text-primary font-medium mb-2">
+                                    <div className="flex items-center text-primary font-medium mb-2 text-sm">
                                         <span>{cert.issuer}</span>
                                         <span className="mx-2">•</span>
                                         <span>{cert.date}</span>
                                     </div>
-                                    <p className="text-muted-foreground">
+                                    <p className="text-muted-foreground text-sm">
                                         {cert.description}
                                     </p>
                                 </div>
@@ -65,21 +72,21 @@ export default function Certifications() {
                             <HiCheckCircle className="w-8 h-8 text-primary mr-3" />
                             Key Achievements
                         </h3>
-                        <div className="glass rounded-xl p-6">
+                        <div className="bg-card border border-border rounded-lg p-6">
                             <ul className="space-y-4">
                                 {achievements.map((achievement, index) => (
                                     <li key={index} className="flex items-start">
-                                        <HiCheckCircle className="w-6 h-6 text-primary mr-3 flex-shrink-0 mt-1" />
-                                        <span className="text-foreground text-lg">{achievement}</span>
+                                        <span className="text-primary mr-3 flex-shrink-0 mt-1">•</span>
+                                        <span className="text-foreground text-sm">{achievement}</span>
                                     </li>
                                 ))}
                             </ul>
                         </div>
 
                         {/* Additional info box */}
-                        <div className="mt-6 glass rounded-xl p-6 border-l-4 border-primary">
-                            <p className="text-foreground">
-                                <span className="font-bold text-primary">Hackathon Achievement:</span> Recognized for innovative problem-solving skills and technical excellence in competitive programming environment.
+                        <div className="mt-6 bg-card border border-border border-l-4 border-l-primary rounded-lg p-6">
+                            <p className="text-foreground text-sm">
+                                <span className="font-semibold text-primary">Technical Skills:</span> Strong foundation in data structures, algorithms, and full-stack development with extensive hands-on experience in competitive programming and open-source contributions.
                             </p>
                         </div>
                     </div>

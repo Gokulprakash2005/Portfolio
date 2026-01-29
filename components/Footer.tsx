@@ -13,8 +13,7 @@ export default function Footer() {
                     {/* Copyright */}
                     <div className="mb-4 md:mb-0">
                         <p className="text-muted-foreground flex items-center">
-                            © {year} Made with <HiHeart className="w-4 h-4 mx-1 text-red-500" /> by{" "}
-                            <span className="ml-1 font-semibold gradient-text">K.Gokul Prakash</span>
+                            © {year} <span className="ml-1 font-semibold text-foreground">K.Gokul Prakash</span> - Full Stack Developer
                         </p>
                     </div>
 
@@ -52,8 +51,11 @@ export default function Footer() {
 
                 {/* Additional Info */}
                 <div className="mt-6 text-center">
+                    <p className="text-sm text-muted-foreground mb-2">
+                        Professional portfolio showcasing full-stack development expertise
+                    </p>
                     <p className="text-sm text-muted-foreground">
-                        Built with Next.js, React, TypeScript & Tailwind CSS | Deployed on Vercel
+                         gokulprakash1301@gmail.com |  +91 7603986981
                     </p>
                 </div>
             </div>
