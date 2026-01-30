@@ -64,11 +64,12 @@ export default function Hero() {
                         </h2>
                     </div>
                     
-                    <p className="text-sm sm:text-base md:text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-                        Full-stack developer skilled in modern web technologies with hands-on internship experience across{" "}
-                        <span className="text-foreground font-medium">frontend, backend, database, and deployment workflows</span>. 
-                        Experienced building production-grade applications, REST APIs, and automation systems using{" "}
-                        <span className="text-foreground font-medium">Next.js, React.js, Node.js, Spring Boot, and relational databases</span>.
+                    <p className="text-sm sm:text-base md:text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed text-justify">
+                        Full-stack developer with hands-on internship experience in{" "}
+                        <span className="text-foreground font-medium">frontend and backend development</span>, specializing in{" "}
+                        <span className="text-foreground font-medium">Java, Spring Boot, React.js, and REST APIs</span>. 
+                        Experienced in building scalable web applications, database-driven systems, and production-ready features using modern frameworks and cloud platforms. 
+                        Strong foundation in data structures, problem-solving, and software engineering best practices.
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
