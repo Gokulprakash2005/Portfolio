@@ -13,13 +13,13 @@ export default function About() {
 
                 <div className="bg-card border border-border rounded-lg p-8">
                     <div className="space-y-6">
-                        <p className="text-base text-foreground leading-relaxed">
+                        <p className="text-base text-foreground leading-relaxed text-justify">
                             As a <span className="text-primary font-semibold">Software Development Engineer</span> at ADRIG AI Technologies Pvt. Ltd., 
                             I contributed to over five production-grade modules, including analytics dashboards, admin portals, and course portals, 
                             while leveraging <span className="text-primary font-semibold">Next.js, Neon DB, and Vercel</span> for scalable system designs.
                         </p>
 
-                        <p className="text-base text-foreground leading-relaxed">
+                        <p className="text-base text-foreground leading-relaxed text-justify">
                             My work also included <span className="text-primary font-semibold">AI-driven image processing and automation using Puppeteer</span>, 
                             showcasing my passion for full-stack development and problem-solving. I have gained foundational knowledge in web design 
                             and development through internships that focused on <span className="text-primary font-semibold">responsive web design and mobile-first UI layouts</span>.

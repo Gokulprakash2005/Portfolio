@@ -16,91 +16,101 @@ export default function Navbar() {
     const toggleMenu = () => setIsOpen(!isOpen);
 
     const navLinks = [
+        { name: "Home", href: "#home" },
         { name: "About", href: "#about" },
-        { name: "Experience", href: "#experience" },
-        { name: "Projects", href: "#projects" },
+        { name: "Work", href: "#projects" },
         { name: "Skills", href: "#skills" },
         { name: "Contact", href: "#contact" },
     ];
 
     return (
-        <nav className="fixed top-0 w-full bg-background/95 backdrop-blur-sm z-50 border-b border-border">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="flex items-center justify-between h-16">
+        <nav className="fixed top-6 left-1/2 transform -translate-x-1/2 z-50 px-4">
+            <div className="bg-slate-800/90 backdrop-blur-md rounded-full px-4 sm:px-6 py-3 border border-slate-700/50 shadow-lg">
+                <div className="flex items-center justify-between space-x-4 sm:space-x-8">
+                    {/* Logo */}
                     <div className="flex-shrink-0">
-                        <a href="#" className="text-muted-foreground  font-medium text-foreground">
-                            K.Gokul Prakash
+                        <a href="#" className="flex items-center">
+                            <div className="w-8 h-8 sm:w-10 sm:h-10 bg-black rounded-xl flex items-center justify-center">
+                                <span className="text-white font-bold text-sm sm:text-lg">Pf</span>
+                            </div>
                         </a>
                     </div>
 
-                    <div className="hidden md:block">
-                        <div className="ml-10 flex items-center space-x-6">
-                            {navLinks.map((link) => (
-                                <a
-                                    key={link.name}
-                                    href={link.href}
-                                    className="text-muted-foreground hover:text-foreground transition-colors duration-200 font-medium text-sm"
-                                >
-                                    {link.name}
-                                </a>
-                            ))}
-
-                            {mounted && (
-                                <button
-                                    onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-                                    className="p-2 rounded-md bg-secondary hover:bg-accent transition-colors duration-200"
-                                    aria-label="Toggle theme"
-                                >
-                                    {theme === "dark" ? (
-                                        <HiSun className="w-4 h-4" />
-                                    ) : (
-                                        <HiMoon className="w-4 h-4" />
-                                    )}
-                                </button>
-                            )}
-                        </div>
+                    {/* Navigation Links - Hidden on mobile */}
+                    <div className="hidden lg:flex items-center space-x-6">
+                        {navLinks.map((link) => (
+                            <a
+                                key={link.name}
+                                href={link.href}
+                                className="text-slate-300 hover:text-white transition-colors duration-200 text-sm font-medium"
+                            >
+                                {link.name}
+                            </a>
+                        ))}
                     </div>
 
-                    {/* Mobile menu button */}
-                    <div className="md:hidden flex items-center space-x-2">
+                    {/* Right side items */}
+                    <div className="flex items-center space-x-2 sm:space-x-3">
+                        {/* CTA Button - Show on tablet and desktop */}
+                        <div className="hidden md:block">
+                            <a
+                                href="#contact"
+                                className="bg-white text-slate-800 px-3 sm:px-4 py-2 rounded-full text-xs sm:text-sm font-medium hover:bg-slate-100 transition-colors duration-200 whitespace-nowrap"
+                            >
+                                Let's chat
+                            </a>
+                        </div>
+
+                        {/* Theme Toggle */}
                         {mounted && (
                             <button
                                 onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-                                className="p-2 rounded-lg bg-secondary hover:bg-accent transition-colors duration-200"
+                                className="p-2 rounded-full bg-slate-700/50 hover:bg-slate-600/50 transition-colors duration-200"
                                 aria-label="Toggle theme"
                             >
                                 {theme === "dark" ? (
-                                    <HiSun className="w-5 h-5" />
+                                    <HiSun className="w-4 h-4 text-slate-300" />
                                 ) : (
-                                    <HiMoon className="w-5 h-5" />
+                                    <HiMoon className="w-4 h-4 text-slate-300" />
                                 )}
                             </button>
                         )}
-                        <button
-                            onClick={toggleMenu}
-                            className="inline-flex items-center justify-center p-2 rounded-lg text-foreground hover:bg-accent transition-colors duration-200"
-                            aria-label="Toggle menu"
-                        >
-                            {isOpen ? <HiX className="w-6 h-6" /> : <HiMenu className="w-6 h-6" />}
-                        </button>
+
+                        {/* Mobile menu button */}
+                        <div className="lg:hidden">
+                            <button
+                                onClick={toggleMenu}
+                                className="p-2 rounded-full bg-slate-700/50 hover:bg-slate-600/50 transition-colors duration-200"
+                                aria-label="Toggle menu"
+                            >
+                                {isOpen ? <HiX className="w-4 h-4 text-slate-300" /> : <HiMenu className="w-4 h-4 text-slate-300" />}
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
 
             {/* Mobile menu */}
             {isOpen && (
-                <div className="md:hidden bg-background border-t border-border">
-                    <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <div className="lg:hidden mt-2 bg-slate-800/90 backdrop-blur-md rounded-2xl border border-slate-700/50 shadow-lg mx-4">
+                    <div className="px-4 py-3 space-y-2">
                         {navLinks.map((link) => (
                             <a
                                 key={link.name}
                                 href={link.href}
-                                className="block px-3 py-2 rounded-md text-base font-medium text-foreground hover:bg-accent transition-colors duration-200"
+                                className="block px-3 py-2 rounded-lg text-slate-300 hover:text-white hover:bg-slate-700/50 transition-colors duration-200"
                                 onClick={() => setIsOpen(false)}
                             >
                                 {link.name}
                             </a>
                         ))}
+                        <a
+                            href="#contact"
+                            className="block px-3 py-2 mt-2 bg-white text-slate-800 rounded-lg text-center font-medium hover:bg-slate-100 transition-colors duration-200"
+                            onClick={() => setIsOpen(false)}
+                        >
+                            Let's chat
+                        </a>
                     </div>
                 </div>
             )}

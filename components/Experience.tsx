@@ -85,7 +85,7 @@ export default function Experience() {
                                     
                                     <div className="space-y-2">
                                         {exp.achievements.map((achievement, achIndex) => (
-                                            <p key={achIndex} className="flex items-start text-muted-foreground text-sm">
+                                            <p key={achIndex} className="flex items-start text-muted-foreground text-sm text-justify">
                                                 <span className="text-primary mr-2 mt-1">•</span>
                                                 {achievement}
                                             </p>

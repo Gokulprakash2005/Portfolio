@@ -75,7 +75,7 @@ export default function Certifications() {
                         <div className="bg-card border border-border rounded-lg p-6">
                             <ul className="space-y-4">
                                 {achievements.map((achievement, index) => (
-                                    <li key={index} className="flex items-start">
+                                    <li key={index} className="flex items-start text-justify">
                                         <span className="text-primary mr-3 flex-shrink-0 mt-1">•</span>
                                         <span className="text-foreground text-sm">{achievement}</span>
                                     </li>
@@ -85,7 +85,7 @@ export default function Certifications() {
 
                         {/* Additional info box */}
                         <div className="mt-6 bg-card border border-border border-l-4 border-l-primary rounded-lg p-6">
-                            <p className="text-foreground text-sm">
+                            <p className="text-foreground text-sm text-justify">
                                 <span className="font-semibold text-primary">Technical Skills:</span> Strong foundation in data structures, algorithms, and full-stack development with extensive hands-on experience in competitive programming and open-source contributions.
                             </p>
                         </div>

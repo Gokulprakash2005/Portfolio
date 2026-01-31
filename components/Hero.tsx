@@ -53,7 +53,7 @@ export default function Hero() {
                 }}
             ></div>
 
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10 py-4 md:py-0">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10 py-8 md:py-0">
                 <div className="space-y-8">
                     <div className="space-y-4">
                         <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-foreground leading-tight">
