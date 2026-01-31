@@ -24,8 +24,8 @@ export default function Navbar() {
     ];
 
     return (
-        <nav className="fixed top-6 left-1/2 transform -translate-x-1/2 z-50 px-4">
-            <div className="bg-slate-800/90 backdrop-blur-md rounded-full px-4 sm:px-6 py-3 border border-slate-700/50 shadow-lg">
+        <nav className="fixed top-4 left-0 xl:top-6 xl:left-1/2 xl:transform xl:-translate-x-1/2 z-50 w-full xl:w-auto px-4 xl:px-0">
+            <div className="bg-slate-800/90 backdrop-blur-md rounded-full xl:rounded-full px-4 xl:px-6 py-3 border-0 xl:border border-slate-700/50 shadow-lg">
                 <div className="flex items-center justify-between space-x-4 sm:space-x-8">
                     {/* Logo */}
                     <div className="flex-shrink-0">

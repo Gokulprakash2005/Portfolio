@@ -114,7 +114,7 @@ export default function Projects() {
 
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl md:text-5xl font-bold mb-4 gradient-text-alt">
+                    <h2 className="text-3xl font-semibold text-gray-900 dark:text-white mb-4">
                         Projects
                     </h2>
                     <div className="w-20 h-1 bg-primary mx-auto rounded-full"></div>

@@ -90,7 +90,7 @@ export default function Skills() {
                 <div className="text-center mb-16 fade-in-up animate">
                     <div className="inline-flex items-center gap-2 mb-4">
                         
-                        <h2 className="text-4xl md:text-5xl font-bold  gradient-text-alt ">
+                        <h2 className="text-3xl font-semibold text-gray-900 dark:text-white mb-4 ">
                             Skills & Technologies
                         </h2>
                     </div>
