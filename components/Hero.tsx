@@ -86,7 +86,7 @@ export default function Hero() {
                             Contact Me
                         </a>
                         <a
-                            href="https://gokul-prakash-k.tiiny.site"
+                            href="https://plum-tabina-65.tiiny.site/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="px-6 py-3 bg-secondary text-secondary-foreground rounded-lg font-medium hover:bg-secondary/80 transition-colors duration-200"
