@@ -8,7 +8,7 @@ export default function Experience() {
             title: "Software Developer Intern",
             company: "ADRIG AI TECHNOLOGIES",
             location: "Chennai",
-            duration: "Oct 2025 – present",
+            duration: "Oct 2025 – March 2025",
             type: "Paid Internship",
            
            
